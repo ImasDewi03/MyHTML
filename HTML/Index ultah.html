@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1-0"></meta> 
+     <title>Mari hitung di</title>
+     <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href=' '>CalculAge</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#settings">Settings</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="" class="tbl-ungu">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <section id="home">
+            <img src="https://img.freepik.com/free-vector/calculator-concept-illustration_114360-1259.jpg?w=740&t=st=1667389458~exp=1667390058~hmac=94034b951c064666c51e1a4a18a5b12c684c60f6c7db7312f3fb125c25719c6a"/>
+            <div class="kolom">
+                <p class="deskripsi">Halo kamu... Happy Born Day ya!!</p>
+                <h2>Semoga panjang umur, sehat selalu, tambah pintar, berbakti pada ortu, dll. Sisanya kamu doa sendiri aku bagian amin ya hehe </h2>
+                <p><a href="" class="tbl-pink">Pelajari lebih lanjut</a> </p>
+            </div>
+        </section>
+    </div>
+</body>
+<body>
+    <div class="container">
+        <form>
+            <div class="base">
+                <div class="enter">
+                    <h4>HITUNG UMURMU DISINI!</h4>
+                </div>
+            <div class="block">
+                <p class="title">Date</p>
+                <input type="text" name="tanggal" id="tanggal" placeholder="dd" required="required" minlength="1" maxlength="2" />
+            </div>
+            <div class="block">
+                <p class="title">Month</p>
+                <input type="text" name="bulan" id="bulan" placeholder="mm" required="required" minlenghth="1" maxlenghth="2" />
+            </div>
+            <div class="block">
+                <p class="title">Year</p>
+                <input type="text" name="tahun" id="tahun" placeholder="yy" required="required" minlenghth="4" maxlenght="4" />
+            </div>
+            </div>
+            <div class="base">
+                <div class="enter">
+                    <input type="button" name="submit" value="Hitung" onclick="age()" />
+                </div>
+            </div>
+            <div id="age"></div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
